@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1FE3C614-6361-9B2E-A057-716B4C7FBD33" name="Rută">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:32:24 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="durată" id="4DCE082E-443C-713E-31E0-A00DF8DDE490">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:04:23 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="număr_zbor" id="AC70809C-80F1-9E30-11A9-B9A350B69CB9">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:05:28 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="distanță" id="5B7BCDCD-35A9-3BD2-8CE1-16270DC97DC1">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:05:55 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preț_economic_class" id="07BB7F73-BBC6-BF3B-FDED-2D7D34B7152B">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:06:44 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preț Business Class" id="A2B72C91-60D3-43D9-C346-DE188D4B225E">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:07:14 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oraș_decolare" id="790E688D-3AA2-EB92-97EE-47E8C82CF73C">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 13:11:20 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="oraș_aterizare" id="EF751811-68F8-3E69-1D05-F51872C65314">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 13:11:48 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C10A486-4857-A157-9DA6-8473029E2137" name="RUTĂ_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:31:16 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AC70809C-80F1-9E30-11A9-B9A350B69CB9</newElementsIDs>
+<usedAttributes>
+<attributeRef>AC70809C-80F1-9E30-11A9-B9A350B69CB9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

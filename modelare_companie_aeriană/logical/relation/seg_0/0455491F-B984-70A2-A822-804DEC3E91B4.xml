@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="baze_rută" directorySegmentName="seg_0" id="0455491F-B984-70A2-A822-804DEC3E91B4">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 17:45:25 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<sourcePk>4C10A486-4857-A157-9DA6-8473029E2137</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1FE3C614-6361-9B2E-A057-716B4C7FBD33</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9B800C11-FA2D-1860-E7AB-D9709E69F5B8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

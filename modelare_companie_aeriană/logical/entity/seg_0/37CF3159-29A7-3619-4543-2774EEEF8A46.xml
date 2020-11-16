@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37CF3159-29A7-3619-4543-2774EEEF8A46" name="Avion">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:30:49 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID" id="0A38E6A2-8251-2781-4DE9-A17930CF8BAA">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:35:21 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ultima revizie" id="84353946-8CB8-9472-189F-7FE4BACA96ED">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:39:13 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Anul fabricării" id="CEEF0FF3-168F-1165-C69C-58447EDE650F">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:39:46 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacitate" id="832BD0AF-9166-1293-65C3-CD5082A49738">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:40:31 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Încărcătură maximă" id="21DE39C4-3759-D939-F6B7-DDE8BAAB14DB">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:41:21 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Distanța maximă" id="03F048DB-EA76-DF89-23B5-D6843169F5F4">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:42:05 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="număr_zbor" id="7590687F-C984-D3C1-824D-7475C6EAB0A2">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 17:44:22 UTC</createdTime>
+<generatorID>7A69BC75-F0CC-84B1-5F2F-73BC0BE82DF7</generatorID>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<referedAttribute>8B192EA2-0889-BDD0-CB55-E017287E0A58</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B245C53C-9D74-D5AA-EB31-6B0D5C81359B" name="AVION_PK">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 12:34:00 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<engineerTo>
+<item key="F9E74B12-85F3-2530-57BF-9ABB2E52102D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0A38E6A2-8251-2781-4DE9-A17930CF8BAA</newElementsIDs>
+<usedAttributes>
+<attributeRef>0A38E6A2-8251-2781-4DE9-A17930CF8BAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

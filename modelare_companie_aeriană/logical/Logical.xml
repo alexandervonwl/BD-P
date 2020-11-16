@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="1684E887-9FF8-84DB-A1B8-C5D4E807E63A" mainViewID="A1487A7E-A5D9-5635-EF60-E719F990718A">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:24:13 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

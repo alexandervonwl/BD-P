@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="682D9F58-2B10-CE61-8096-1CD1DA25DE24">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:24:13 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

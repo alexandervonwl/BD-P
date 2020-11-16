@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelare_companie_aeriană" id="4127A480-8A52-9A4C-0148-81C65DD732D7" version="3.5">
+<createdBy>Alex</createdBy>
+<createdTime>2020-11-16 11:24:13 UTC</createdTime>
+<ownerDesignName>modelare_companie_aeriană</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4127A480-8A52-9A4C-0148-81C65DD732D7</designId>
+</OSDM_Design>
